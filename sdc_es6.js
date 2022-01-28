@@ -262,7 +262,7 @@ let map_size = 200,
 
 while (codes.length > 5) codes.splice(rand(codes.length), 1);
 
-(void 0).options = {
+this.options = {
   map_size: map_size,
   custom_map: "",
   starting_ship: 801,
@@ -1523,9 +1523,9 @@ let initialization = function (game) {
   check(game, null, true);
 };
 
-(void 0).tick = initialization;
+this.tick = initialization;
 
-(void 0).event = function (event, game) {
+this.event = function (event, game) {
   let ship = event.ship,
       killer = event.killer;
   if (ship != null) switch (event.name) {
