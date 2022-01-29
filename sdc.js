@@ -9,6 +9,8 @@ STARBLAST DUELING CHAMPIONSHIP (SDC)
 Season 2 (v2.0) - Main version
 
 Requirements: ES2020 (Chrome & Edge 80, Firefox 74, Opera 67, Safari 13.1, NodeJS v14.0.0, fck IE) and above
+
+Mod code for older browsers that supports ES6 can be found here: https://raw.githubusercontent.com/Bhpsngum/SDC-public/master/sdc_es6.js
 */
 
 let gem_ratio = 1;
