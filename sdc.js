@@ -1144,7 +1144,7 @@ this.event = function(event, game) {
               break;
             case "invite":
               if (ship.custom.isReady()) {
-                addWarn(ship, "Sorry, you can't use this feature right now.");
+                addWarn(ship, "You can't invite someone when you are ready!");
                 ship.custom.invite_shown = false
               }
               else {
